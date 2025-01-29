@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #cce7ff;
+  font-family: Arial, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.my-label{
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.my-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.my-button:hover{
+  background-color: #0056b3;
+}
+
+h2{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+  color: orange;
+}
+
+h3{
+  color:green;
+  text-align: center;
+}
+
+form{
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div{
+  margin-bottom: 15px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form div{
+  margin-top: 8px;
+}
+
+/* div{
+  margin-bottom: 15px;
+} */
